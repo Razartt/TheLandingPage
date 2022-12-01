@@ -1,0 +1,72 @@
+.container{
+    margin: 0;
+    display: flexbox;
+    padding: 0;
+    position:absolute;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    min-width:532px;
+    min-height: 380px;
+    width: 50vw;
+    height: 50vh;
+
+}
+.container>*{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+h2,h3{
+    display: inline;
+    position: absolute;
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+    width: 50vw;
+    left: 1rem;
+}
+.from,.to,.cc,.subject{
+    width: 4rem;
+    min-width:min-content;
+}
+.address,.yourAddress,.ccText,.subjectText{
+    width: 40vw;
+    min-width: 300px;
+
+}
+.from,.address{
+top: 2.5rem;
+}
+.address{
+    left: 6.5rem;
+}
+.to,.yourAddress{
+    top: 4.5rem;
+}
+.yourAddress{
+    left: 6.5rem;
+}
+.cc, .ccText{
+    top: 6.5rem;
+}
+.ccText{
+    left: 6.5rem;
+}
+.subject,.subjectText{
+top: 8.5rem;
+}
+.subjectText{
+    left: 6.5rem;
+}
+.contentHeader,.content{
+    position: absolute;
+    min-width:min-content;
+    left: 1rem;
+    top: 11rem;
+
+}
+.content{
+    top: 15rem;
+    min-width: 300px;
+    max-width: 450px;
+} 
